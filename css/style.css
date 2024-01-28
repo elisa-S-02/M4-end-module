@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Borel', cursive;
+  }
+  body{
+    background-color: rgba(250, 232, 244, 0.63);;
+  }
+  .card-img-top {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+  }
+  .barra{
+    background-color: rgba(167, 75, 136, 0.767);
+  }
+  .storeName{
+    font-family:'Borel', cursive;
+    font-size: x-large;
+  }
+  .cardElement2 {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+}
+.cardElement2:hover {
+    transform: scale(1.02);
+}
+.card-img-top {
+    max-height: 800px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.card h5, .card h6 {
+    cursor: pointer;
+    font-size: 20px;
+} 
